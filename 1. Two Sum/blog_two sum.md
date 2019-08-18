@@ -62,8 +62,10 @@ class Solution(object):
                 if nums[i]+nums[j]==target:
                     return i,j
 </code></pre>
-执行用时 :4996 ms, 在所有 Python 提交中击败了16.95%的用户
-内存消耗 :12.4 MB, 在所有 Python 提交中击败了37.72%的用户
+
+执行用时 :4996 ms, 在所有 Python 提交中击败了16.95%的用户<br>
+内存消耗 :12.4 MB, 在所有 Python 提交中击败了37.72%的用户<br>
+
 </details>
 &nbsp;
 
@@ -72,13 +74,14 @@ class Solution(object):
 ★ 时间复杂度：$O(nlogn)$
 ★ 空间复杂度：$O(n)$
 <details>
-<summary>sort+bisection -python</summary>
+<summary>Sort+bisection -python</summary>
 
 <pre><code>
 class Solution(object):
     def twoSum(self, nums, target):
         nums_copy=nums.copy() # 保留原数组，sort函数会修改原数组
         nums.sort() # 排序-timsort算法
+
         vals=[] # 满足两数相加==target的数
         for i in range(len(nums)):
             start=i+1
@@ -89,24 +92,25 @@ class Solution(object):
                     vals.append(nums[i])
                     vals.append(nums[mid_s])
                     break
-                elif nums[mid_s]<target-nums[i]:
-</code></pre>
-<pre><code>
+                elif (nums[mid_s]<(target-nums[i])):
                     start=mid_s
                 else:
                     end=mid_s
                 mid_e = int((start + end) / 2)
                 if mid_e==mid_s:
                     start+=1
+        
         result=[]
         for i in range(len(nums_copy)):# 在原数组中找这两个数的索引
             if (nums_copy[i]==vals[0])or(nums_copy[i]==vals[1]):
                 result.append(i)
+
         return result
 </code></pre>
-结果<br>
+
 执行用时 :132 ms, 在所有 Python 提交中击败了57.70%的用户<br>
 内存消耗 :12.5 MB, 在所有 Python 提交中击败了36.60%的用户<br>
+
 </details>
 &nbsp;
 
@@ -138,9 +142,10 @@ class Solution(object):
             if str(target-nums[i])in dict and dict[str(target-nums[i])]!=i:
                 return i,dict[str(target-nums[i])]
 </code></pre>
-结果
-执行用时 :44 ms, 在所有 Python 提交中击败了92.95%的用户  
+
+执行用时 :44 ms, 在所有 Python 提交中击败了92.95%的用户<br>
 内存消耗 :14.2 MB, 在所有 Python 提交中击败了5.01%的用户  
+
 </details>
 &nbsp;
 ###一遍哈希表
@@ -152,7 +157,7 @@ class Solution(object):
 <img src="https://raw.githubusercontent.com/Amyoyoyo/media/master/leetcode/twosum_hashtable.gif" width="400px" />[^gif]
 
 <details>
-<summary>One-pass Hash Table -python</summary>
+<summary>One-pass Hash Table -python-1</summary>
 
 <pre><code>
 class Solution(object):
@@ -164,9 +169,59 @@ class Solution(object):
             else:
                 dict[str(nums[i])] = i
 </code></pre>
-结果
-执行用时 :84 ms, 在所有 Python 提交中击败了59.23%的用户
-内存消耗 :13.9 MB, 在所有 Python 提交中击败了5.01%的用户
+
+执行用时 :84 ms, 在所有 Python 提交中击败了59.23%的用户<br>
+内存消耗 :13.9 MB, 在所有 Python 提交中击败了5.01%的用户<br>
+
+代码可精简部分<br>
+1. 直接用enumerate代替range(len(nums))和nums[i]
+&nbsp;
+</details>
+
+<details>
+<summary>One-pass Hash Table -python-2</summary>
+
+<pre><code>
+class Solution(object):
+    def twoSum(self, nums, target):
+        dict={}
+        for i,val in enumerate(nums):
+            if dict.get(target-val) is not None:
+                return i,dict.get(target-val)
+            else:
+                dict[val]=i
+</code></pre>
+
+执行用时 :44 ms, 在所有 Python 提交中击败了92.95%的用户<br>
+内存消耗 :13.1 MB, 在所有 Python 提交中击败了14.19%的用户
+
+代码可修改部分<br>
+1. 用尾递归代替循环遍历<br>
+&nbsp;
+</details>
+
+<details>
+<summary>One-pass Hash Table -python-3</summary>
+
+<pre><code>
+class Solution(object):
+    def twoSum(self, nums, target,i=0,dict={}):
+        if dict.get(target-nums[i]) is not None:
+            result=[dict.get(target - nums[i]),i]
+            dict.clear()
+            return result
+        else:
+            dict[nums[i]] = i
+            i+=1
+            return self.twoSum(nums,target,i,dict)
+</code></pre>
+
+执行用时 :36 ms, 在所有 Python 提交中击败了99.37%的用户<br>
+内存消耗 :21 MB, 在所有 Python 提交中击败了5.01%的用户<br>
+
+• 易错点-形参&实参[^argument]
+<img src="https://raw.githubusercontent.com/Amyoyoyo/media/master/leetcode/20190818193815.png" width=80% height=80%><br>
+注意要在函数结束时清空字典的值,不然第二次调用该函数，字典有值导致结果不对。
 </details>
 &nbsp;
 #各方法运行结果
@@ -176,10 +231,13 @@ Brute Force 1 | 4172 ms|26.93%|12.7 MB|25.36%
 Brute Force 2 | 4996 ms|16.95%|12.4 MB|37.72%
 Sort+Bisection|132 ms|57.70%|12.5 MB|36.60%
 Two-pass Hash Table|44 ms|92.95%|14.2 MB|5.01%
-One-pass Hash Table|84 ms|59.23%|13.9 MB|5.01%
+One-pass Hash Table 1|84 ms|59.23%|13.9 MB|5.01%
+One-pass Hash Table 2|44 ms|92.95%|13.1 MB|14.19%
+One-pass Hash Table 3|36 ms|99.37%|21 MB|5.01%
 &nbsp;
-s
+
 #参考
 [^LeetCode]: [LeetCode题解](https://leetcode-cn.com/problems/)
 [^HashTable]: [哈希表](https://baike.baidu.com/item/%E5%93%88%E5%B8%8C%E8%A1%A8/5981869?fr=aladdin)
 [^gif]: [画解算法by灵魂画师牧码](https://leetcode-cn.com/problems/two-sum/solution/jie-suan-fa-1-liang-shu-zhi-he-by-guanpengchn/)
+[^argument]: [形参&实参](https://baike.baidu.com/item/%E5%BD%A2%E5%8F%82/7677757?fr=aladdin)
