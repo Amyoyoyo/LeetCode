@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df68e2ce-71d4-421a-a516-65e196d66569" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/bisection.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/bisection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" afterDir="false" />
-    </list>
+    <list default="true" id="df68e2ce-71d4-421a-a516-65e196d66569" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +14,8 @@
       <file leaf-file-name="bisection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1. Two Sum/bisection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="152">
+              <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -225,8 +222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Two Sum/bisection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="152">
+          <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
     </entry>
