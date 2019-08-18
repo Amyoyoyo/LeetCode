@@ -18,7 +18,7 @@
 
 #解法
 ##暴力搜索
-遍历`nums`中的每一个元素`x`，查找`nums`中另一个元素`j`使得`x+j=target`
+遍历`nums`中的每一个元素`x`，遍历剩下`nums`中另一个元素`j`使得`x+j=target`
 ★ 时间复杂度：$O(n^2)$
 &emsp;&emsp;对于每个元素，我们试图通过遍历数组的其余部分来寻找它所对应的目标元素，这将耗费$O(n)$的时间。因此时间复杂度为$O(n^2)$。
 ★ 空间复杂度：$O(1)$
@@ -66,6 +66,53 @@ class Solution(object):
 内存消耗 :12.4 MB, 在所有 Python 提交中击败了37.72%的用户
 </details>
 &nbsp;
+
+##排序+二分法
+先将数组从小到大排序$O(nlogn)$，遍历`nums`中的每一个元素`x`，用二分法查找`nums`中是否存在元素`target-x`$O(logn)$.<br>
+★ 时间复杂度：$O(nlogn)$
+★ 空间复杂度：$O(n)$
+<details>
+<summary>sort+bisection -python</summary>
+
+<pre><code>
+class Solution(object):
+    def twoSum(self, nums, target):
+        nums_copy=nums.copy() # 保留原数组，sort函数会修改原数组
+        nums.sort() # 排序-timsort算法
+        vals=[] # 满足两数相加==target的数
+        for i in range(len(nums)):
+            start=i+1
+            end=len(nums)-1
+            while(start<=end):
+                mid_s = int((start + end) / 2)
+                if nums[mid_s]==target-nums[i]:
+                    vals.append(nums[i])
+                    vals.append(nums[mid_s])
+                    break
+                elif nums[mid_s]<target-nums[i]:
+</code></pre>
+<pre><code>
+                    start=mid_s
+                else:
+                    end=mid_s
+                mid_e = int((start + end) / 2)
+                if mid_e==mid_s:
+                    start+=1
+        result=[]
+        for i in range(len(nums_copy)):# 在原数组中找这两个数的索引
+            if (nums_copy[i]==vals[0])or(nums_copy[i]==vals[1]):
+                result.append(i)
+        return result
+</code></pre>
+结果<br>
+执行用时 :132 ms, 在所有 Python 提交中击败了57.70%的用户<br>
+内存消耗 :12.5 MB, 在所有 Python 提交中击败了36.60%的用户<br>
+</details>
+&nbsp;
+
+
+
+
 ##哈希表
 • 以空间换速度
 • 保持数组中的每个元素与其索引相互对应的最好方法：哈希表[^HashTable]
@@ -127,10 +174,11 @@ class Solution(object):
 -|-|-|-|-
 Brute Force 1 | 4172 ms|26.93%|12.7 MB|25.36%
 Brute Force 2 | 4996 ms|16.95%|12.4 MB|37.72%
+Sort+Bisection|132 ms|57.70%|12.5 MB|36.60%
 Two-pass Hash Table|44 ms|92.95%|14.2 MB|5.01%
 One-pass Hash Table|84 ms|59.23%|13.9 MB|5.01%
 &nbsp;
-
+s
 #参考
 [^LeetCode]: [LeetCode题解](https://leetcode-cn.com/problems/)
 [^HashTable]: [哈希表](https://baike.baidu.com/item/%E5%93%88%E5%B8%8C%E8%A1%A8/5981869?fr=aladdin)
