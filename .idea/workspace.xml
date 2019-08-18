@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df68e2ce-71d4-421a-a516-65e196d66569" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Amy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1. Two Sum/solution_amy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Two Sum/solution_amy.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/solution_amy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/1. Two Sum/solution_amy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="7" selection-end-column="50" />
+              <caret selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -173,7 +172,7 @@
     <entry file="file://$PROJECT_DIR$/1. Two Sum/solution_amy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="7" selection-end-column="50" />
+          <caret selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
