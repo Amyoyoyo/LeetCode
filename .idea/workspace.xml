@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df68e2ce-71d4-421a-a516-65e196d66569" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/solution_amy.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/solution_amy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Two Sum/solution_amy.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +13,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="solution_amy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1. Two Sum/solution_amy.py">
+      <file leaf-file-name="one-pass_hashTable.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="7" selection-end-column="38" />
@@ -105,7 +103,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. Two Sum/solution_amy.py" />
+      <option name="SCRIPT_NAME" value="E:\LeetCode\1. Two Sum\one-pass_hashTable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,12 +130,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -169,7 +166,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. Two Sum/solution_amy.py">
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="7" selection-end-column="38" />
