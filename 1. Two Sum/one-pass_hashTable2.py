@@ -7,10 +7,6 @@ class Solution(object):
             else:
                 dict[val]=i
 
-'''
-执行用时 :64 ms, 在所有 Python 提交中击败了65.16%的用户
-内存消耗 :13.1 MB, 在所有 Python 提交中击败了16.60%的用户
-'''
 
 
 

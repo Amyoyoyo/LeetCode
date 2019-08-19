@@ -1,4 +1,4 @@
-#题目
+#题目-两数之和
 >【英文版】https://leetcode.com/problems/two-sum/
 >【中文版】https://leetcode-cn.com/problems/two-sum/<br>
 
@@ -17,7 +17,7 @@
 ```
 
 #解法
-##暴力搜索
+##暴力求解
 遍历`nums`中的每一个元素`x`，遍历剩下`nums`中另一个元素`j`使得`x+j=target`
 ★ 时间复杂度：$O(n^2)$
 &emsp;&emsp;对于每个元素，我们试图通过遍历数组的其余部分来寻找它所对应的目标元素，这将耗费$O(n)$的时间。因此时间复杂度为$O(n^2)$。
@@ -236,8 +236,11 @@ One-pass Hash Table 2|44 ms|92.95%|13.1 MB|14.19%
 One-pass Hash Table 3|36 ms|99.37%|21 MB|5.01%
 &nbsp;
 
+本文版权归作者AmyZhuang（博文地址: https://www.cnblogs.com/weixia14/） 所有，欢迎转载和商用，请在文章页面明显位置给出原文链接并保留此段声明，否则保留追究法律责任的权利，其他事项，可留言咨询。<br>
+
 #参考
 [^LeetCode]: [LeetCode题解](https://leetcode-cn.com/problems/)
 [^HashTable]: [哈希表](https://baike.baidu.com/item/%E5%93%88%E5%B8%8C%E8%A1%A8/5981869?fr=aladdin)
 [^gif]: [画解算法by灵魂画师牧码](https://leetcode-cn.com/problems/two-sum/solution/jie-suan-fa-1-liang-shu-zhi-he-by-guanpengchn/)
 [^argument]: [形参&实参](https://baike.baidu.com/item/%E5%BD%A2%E5%8F%82/7677757?fr=aladdin)
+

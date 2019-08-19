@@ -9,10 +9,7 @@ class Solution(object):
             i+=1
             return self.twoSum(nums,target,i,dict)
 
-'''
-执行用时 :52 ms, 在所有 Python 提交中击败了75.96%的用户
-内存消耗 :20.8 MB, 在所有 Python 提交中击败了5.01%的用户
-'''
+
 
 if __name__ == '__main__':
     nums = [3,3]

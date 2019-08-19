@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df68e2ce-71d4-421a-a516-65e196d66569" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/BruteForce1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/BruteForce2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,39 +23,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="bisection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1. Two Sum/bisection.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="elementaryMath_recursion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="171">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="one-pass_hashTable1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one-pass_hashTable2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py">
+      <file leaf-file-name="BruteForce.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="7" selection-end-column="27" />
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="one-pass_hashTable3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py">
+      <file leaf-file-name="doublePointer1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="171">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doublePointer2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -73,8 +80,18 @@
         <option value="$PROJECT_DIR$/1. Two Sum/Brute_Force2.py" />
         <option value="$PROJECT_DIR$/1. Two Sum/two-pass_hashTable.py" />
         <option value="$PROJECT_DIR$/1. Two Sum/bisection.py" />
-        <option value="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" />
         <option value="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py" />
+        <option value="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" />
+        <option value="$PROJECT_DIR$/2. Add Two Numbers/BruteForce.py" />
+        <option value="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath.py" />
+        <option value="$PROJECT_DIR$/2. Add Two Numbers/BruteForce2.py" />
+        <option value="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath2.py" />
+        <option value="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath3.py" />
+        <option value="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion2.py" />
+        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py" />
+        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer.py" />
+        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py" />
+        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer3.py" />
       </list>
     </option>
   </component>
@@ -103,7 +120,7 @@
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="1. Two Sum" type="462c0819:PsiDirectoryNode" />
+              <item name="26. Remove Duplicates from Sorted Array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,8 +144,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.one-pass_hashTable3">
-    <configuration name="bisection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.doublePointer3">
+    <configuration name="BruteForce" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,17 +153,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1. Two Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. Two Sum/bisection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="one-pass_hashTable2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="doublePointer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,17 +171,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1. Two Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" />
+      <option name="SCRIPT_NAME" value="E:\LeetCode\26. Remove Duplicates from Sorted Array\doublePointer1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="one-pass_hashTable3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="doublePointer2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,17 +189,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1. Two Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="solution_amy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="doublePointer3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,28 +207,48 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1. Two Sum" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\LeetCode\1. Two Sum\one-pass_hashTable1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="elementaryMath_recursion2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2. Add Two Numbers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.solution_amy" />
-      <item itemvalue="Python.bisection" />
-      <item itemvalue="Python.one-pass_hashTable2" />
-      <item itemvalue="Python.one-pass_hashTable3" />
+      <item itemvalue="Python.elementaryMath_recursion2" />
+      <item itemvalue="Python.BruteForce" />
+      <item itemvalue="Python.doublePointer" />
+      <item itemvalue="Python.doublePointer2" />
+      <item itemvalue="Python.doublePointer3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.one-pass_hashTable3" />
-        <item itemvalue="Python.one-pass_hashTable2" />
-        <item itemvalue="Python.bisection" />
-        <item itemvalue="Python.solution_amy" />
+        <item itemvalue="Python.doublePointer3" />
+        <item itemvalue="Python.doublePointer2" />
+        <item itemvalue="Python.doublePointer" />
+        <item itemvalue="Python.BruteForce" />
+        <item itemvalue="Python.elementaryMath_recursion2" />
       </list>
     </recent_temporary>
   </component>
@@ -234,21 +271,21 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47517732" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37056738" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -256,10 +293,50 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath2.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/bisection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-1268714251/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3686">
@@ -290,7 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1. Two Sum/bisection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="437">
           <caret line="23" selection-start-line="23" selection-end-line="28" selection-end-column="21" />
         </state>
       </provider>
@@ -302,17 +379,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py">
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py">
+    <entry file="file://$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/BruteForce1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/BruteForce2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="20" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="9" selection-end-column="50" />
+          <caret selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
