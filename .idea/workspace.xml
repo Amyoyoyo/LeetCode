@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df68e2ce-71d4-421a-a516-65e196d66569" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/BruteForce1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/BruteForce2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27. Remove Element/BruteForce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27. Remove Element/doublePointers_copy1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27. Remove Element/doublePointers_copy2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27. Remove Element/doublePointers_swap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/blog_two sum.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Two Sum/one-pass_hashTable3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,38 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="elementaryMath_recursion.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BruteForce.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py">
+        <entry file="file://$PROJECT_DIR$/27. Remove Element/BruteForce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doublePointer1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer1.py">
+      <file leaf-file-name="doublePointers_swap.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/27. Remove Element/doublePointers_swap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doublePointer2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="228">
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -90,8 +65,14 @@
         <option value="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion2.py" />
         <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py" />
         <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer.py" />
-        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py" />
         <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer3.py" />
+        <option value="$PROJECT_DIR$/27. Remove Element.py" />
+        <option value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py" />
+        <option value="$PROJECT_DIR$/27. Remove Element/doublePointers2.py" />
+        <option value="$PROJECT_DIR$/27. Remove Element/BruteForce.py" />
+        <option value="$PROJECT_DIR$/27. Remove Element/doublePointers_swap.py" />
+        <option value="$PROJECT_DIR$/27. Remove Element/bishi.py" />
+        <option value="$PROJECT_DIR$/27. Remove Element/test.py" />
       </list>
     </option>
   </component>
@@ -117,11 +98,6 @@
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="26. Remove Duplicates from Sorted Array" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -131,6 +107,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="D:/Software/Anaconda/envs" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LeetCode\27. Remove Element" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.doublePointer3">
+  <component name="RunManager" selected="Python.bishi">
     <configuration name="BruteForce" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,17 +134,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27. Remove Element" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27. Remove Element/BruteForce.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="doublePointer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bishi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,17 +152,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27. Remove Element" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\LeetCode\26. Remove Duplicates from Sorted Array\doublePointer1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27. Remove Element/bishi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="doublePointer2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="doublePointers2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,17 +170,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27. Remove Element" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py" />
+      <option name="SCRIPT_NAME" value="E:\LeetCode\27. Remove Element\doublePointers_copy2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="doublePointer3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="doublePointers_swap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,17 +188,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27. Remove Element" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27. Remove Element/doublePointers_swap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="elementaryMath_recursion2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,30 +206,30 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2. Add Two Numbers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27. Remove Element" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27. Remove Element/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.elementaryMath_recursion2" />
+      <item itemvalue="Python.doublePointers2" />
       <item itemvalue="Python.BruteForce" />
-      <item itemvalue="Python.doublePointer" />
-      <item itemvalue="Python.doublePointer2" />
-      <item itemvalue="Python.doublePointer3" />
+      <item itemvalue="Python.doublePointers_swap" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.bishi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.doublePointer3" />
-        <item itemvalue="Python.doublePointer2" />
-        <item itemvalue="Python.doublePointer" />
+        <item itemvalue="Python.bishi" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.doublePointers_swap" />
         <item itemvalue="Python.BruteForce" />
-        <item itemvalue="Python.elementaryMath_recursion2" />
+        <item itemvalue="Python.doublePointers2" />
       </list>
     </recent_temporary>
   </component>
@@ -267,18 +248,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19698173" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37056738" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2996454" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -305,10 +285,87 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/BruteForce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/doublePointers_swap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/bishi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="34" lean-forward="true" selection-start-line="2" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/BruteForce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/doublePointers_swap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1. Two Sum/bisection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -421,45 +478,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion2.py" />
     <entry file="file://$PROJECT_DIR$/2. Add Two Numbers/elementaryMath_recursion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="285">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer3.py" />
     <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/BruteForce.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="228">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/26. Remove Duplicates from Sorted Array/doublePointer2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/doublePointers_copy1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/doublePointers_copy2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/BruteForce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/bishi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27. Remove Element/doublePointers_swap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
