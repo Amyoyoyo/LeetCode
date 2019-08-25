@@ -97,12 +97,8 @@ Runtime: 60 ms, faster than 95.81% of Python online submissions for Remove Dupli
 Memory Usage: 13.5 MB, less than 93.75% of Python online submissions for Remove Duplicates from Sorted Array.
 </details>
 &nbsp;
-#各方法运行结果
-方法|执行用时|击败用户|内存消耗|击败用户
--|-|-|-|-
-Brute Force 1 | 76 ms|37.59%|13.7 MB|17.19%
-Double Pointers 1 | 60 ms|95.81%|13.5 MB|87.50%
-Double Pointers 2 |60 ms|95.81%|13.5 MB|93.75%
+
+<font color=red>♥</font> 如有错误或有其他解题思路，欢迎指出~~~φ(≧ω≦*)♪
 
 
 
